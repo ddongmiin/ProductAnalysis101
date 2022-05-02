@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a5fd5e1-9776-42ba-b3c9-50616d346ec7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProductAnalysis101.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProductAnalysis101.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0.지표/0.retention.py" beforeDir="false" afterPath="$PROJECT_DIR$/0.지표/0.retention.py" afterDir="false" />
+    <list default="true" id="3a5fd5e1-9776-42ba-b3c9-50616d346ec7" name="Changes" comment="change folder_name, add data">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metric/0.retention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/metric/data/KPMG_VI_New_raw_data_update_final.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +36,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651414505127</updated>
-      <workItem from="1651414512118" duration="513000" />
+      <workItem from="1651414512118" duration="874000" />
+      <workItem from="1651415437984" duration="563000" />
+      <workItem from="1651500100132" duration="3000" />
+      <workItem from="1651500151977" duration="2293000" />
     </task>
+    <task id="LOCAL-00001" summary="aa">
+      <created>1651415067979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651415067979</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change folder_name, add data">
+      <created>1651415938098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651415938098</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -56,5 +71,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aa" />
+    <MESSAGE value="change folder_name, add data" />
+    <option name="LAST_COMMIT_MESSAGE" value="change folder_name, add data" />
   </component>
 </project>
