@@ -4,7 +4,9 @@ import matplotlib as plt
 
 
 """
-0. 데이터 확인
+0. Rolling_retention
+상품 구매와 같이, 주기성이 떨어지는 경우
+DayN_Retention보다는 Rolling Retention이 적합함
 """
 
 # 데이터 호출
@@ -23,13 +25,23 @@ print(f'First date is {data.datetime_to_date.min()} and Last date is {data.datet
 
 # 일자별 고객수 확인
 data.groupby(['datetime_to_date'])['customer_id'].nunique().reset_index().plot(x='datetime_to_date', y='customer_id')
-(data.groupby(['datetime_to_date'])['product_id']\
+(data.groupby(['datetime_to_date'])['product_id']
     .nunique().reset_index().plot(x='datetime_to_date', y='product_id'))
 
-"""
-1. 리텐션 계산
-"""
+# distinct customer_id and datetime_to_date
+dayN_retention = (data[['customer_id', 'datetime_to_date']].drop_duplicates()
+                            .sort_values(['customer_id', 'datetime_to_date'], ascending=[True, True]))
+dayN_retention['shift_date'] = dayN_retention.groupby(['customer_id'])['datetime_to_date'].shift(1)
+dayN_retention.head(20)
 
+dayN_retention.loc[:, ['datetime_to_date', 'shift_date']] = (dayN_retention.loc[:, ['datetime_to_date', 'shift_date']].
+                                                              apply(pd.to_datetime, errors='coerce'))
 
+# type 확인
+dayN_retention.dtypes
 
+# datediff between original_date and shift_date
+dayN_retention['diff_day'] = (((dayN_retention['datetime_to_date'] - dayN_retention['shift_date'])\
+                             / np.timedelta64(1, 'D')).fillna(0))
 
+dayN_retention.head()

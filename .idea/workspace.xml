@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a5fd5e1-9776-42ba-b3c9-50616d346ec7" name="Changes" comment="change folder_name, add data">
+    <list default="true" id="3a5fd5e1-9776-42ba-b3c9-50616d346ec7" name="Changes" comment="retention_check_data">
+      <change afterPath="$PROJECT_DIR$/metric/0.retention/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metric/0.retention.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/metric/data/KPMG_VI_New_raw_data_update_final.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metric/0.retention/retention_for_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/metric/0.retention/retention_for_python.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +14,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,7 +48,8 @@
       <workItem from="1651414512118" duration="874000" />
       <workItem from="1651415437984" duration="563000" />
       <workItem from="1651500100132" duration="3000" />
-      <workItem from="1651500151977" duration="2293000" />
+      <workItem from="1651500151977" duration="2494000" />
+      <workItem from="1651584689273" duration="4223000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1651415067979</created>
@@ -55,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651415938098</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="retention_check_data">
+      <created>1651502512057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651502512057</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +92,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aa" />
     <MESSAGE value="change folder_name, add data" />
-    <option name="LAST_COMMIT_MESSAGE" value="change folder_name, add data" />
+    <MESSAGE value="retention_check_data" />
+    <option name="LAST_COMMIT_MESSAGE" value="retention_check_data" />
   </component>
 </project>
