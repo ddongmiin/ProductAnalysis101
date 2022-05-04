@@ -37,7 +37,7 @@ dayN_retention.head(20)
 dayN_retention.loc[:, ['datetime_to_date', 'shift_date']] = (dayN_retention.loc[:, ['datetime_to_date', 'shift_date']].
                                                               apply(pd.to_datetime, errors='coerce'))
 
-# type 확인
+# type 확인 dtypes
 dayN_retention.dtypes
 
 # datediff between original_date and shift_date
