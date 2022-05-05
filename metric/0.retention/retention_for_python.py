@@ -9,6 +9,7 @@ import matplotlib as plt
 DayN_Retention보다는 Rolling Retention이 적합함
 """
 
+
 # 데이터 호출
 data = pd.read_excel("metric/0.retention/KPMG_VI_New_raw_data_update_final.xlsx", sheet_name='Transactions', skiprows=[0])
 print(data.head())
