@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a5fd5e1-9776-42ba-b3c9-50616d346ec7" name="Changes" comment="220430_retetion start&#10;&#10;py 생성&#10;&#10;일요일에 다시하자..">
+    <list default="true" id="3a5fd5e1-9776-42ba-b3c9-50616d346ec7" name="Changes" comment="aaaa">
       <change beforePath="$PROJECT_DIR$/.idea/ProductAnalysis101.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProductAnalysis101.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metric/0.retention/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/metric/0.retention/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metric/0.retention/retention_for_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/metric/0.retention/retention_for_python.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="retention_for_python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -126,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651675789189</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="aaaa">
+      <created>1651762034284</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651762034284</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +153,7 @@
     <MESSAGE value="retention_check_data" />
     <MESSAGE value="220503_preprocessing datetime&#10;&#10;1. 롤링리텐션 계산 시작&#10;2. datetime 처리&#10;3. 폴더별 readme파일 추가&#10;&#10;see you soon..." />
     <MESSAGE value="220504_edit 주석" />
-    <option name="LAST_COMMIT_MESSAGE" value="220504_edit 주석" />
+    <MESSAGE value="aaaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaaa" />
   </component>
 </project>
